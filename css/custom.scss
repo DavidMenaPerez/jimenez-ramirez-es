@@ -1,0 +1,1054 @@
+//Fonts
+@font-face {
+    font-family: "BebasNeue-Regular";
+    src: url("../fonts/bebas_neue/BebasNeue-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "BebasNeue-thin";
+    src: url("../fonts/bebas_neue/BebasNeue\ Thin.woff") format("woff");
+}
+@font-face {
+    font-family: "Athelas";
+    src: url("../fonts/athelas-cufonfonts-webfont/Athelas-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "Helvetica";
+    src: url("../fonts/helvetica-255-cufonfonts-webfont/Helvetica.woff") format("woff");
+}
+@font-face {
+    font-family: "Hyriadpro";
+    src: url("../fonts/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff") format("woff");
+}
+@font-face {
+    font-family: "Quattrocento";
+    src: url("../fonts/quattrocento-sans-cufonfonts-webfont/QuattrocentoSans-Regular.woff") format("woff");
+}
+//END Fonts
+
+//HEADER
+html {
+    direction: ltr;
+}
+.main-page-wrapper{
+    overflow-x: unset;
+}
+.theme-main-menu {
+    .flaticon-setup:before , .flaticon-setup:after{
+        color: white;
+    }
+    padding: 0px;
+    background: #2e365d;
+    .logo {
+        position: relative;
+        display: inline-block;
+        float: left;
+        img{
+            max-width: 270px;
+        }
+    }
+
+    #mega-menu-holder{
+        position: relative;
+        display: inline-flex;
+        ul.navbar-nav{
+            color: white;
+            li.nav-item{
+                font-family: "BebasNeue-Regular";
+                a.nav-link{
+                    line-height: 5.5;
+                    padding: 7px 27px;
+                    margin: -13px;
+                    font-size: 18px;
+                }
+                a.nav-link,
+                a.nav-link:hover{
+                    color: #fff;
+                }
+            }
+            li.nav-item:hover{
+                background: #23273c;
+            }
+        }
+    }
+ 
+// MEDIA
+    @media screen and (max-width:991px){
+        .logo {
+               img{
+                max-width: 200px;
+            }
+        }
+    }
+    @media screen and (max-width:767px){
+
+        .bottom-footer .container-flud .clearfix .copy {
+            text-align: center;
+            padding: 30px 0;
+            font-size: xx-small;
+        }    
+        .logo {
+            img{
+                max-width: 150px;
+            }
+        }
+        .arch-contact{
+            padding-bottom: 0;
+        }
+        
+    }
+}
+//END MEDIA
+.theme-main-menu.theme-menu-one.fixed{
+    background: #2e365d;
+    padding: 0;
+}
+//END HEADER
+
+//BANNER
+#theme-banner-one{
+    height: 100vh;
+    background-image: url(../images/banner/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    .main-wrapper {
+        height: 100%;
+        padding: 0;
+        .main-title{
+            span{
+                font-family: "BebasNeue-thin";
+                color: #fff;
+            }
+            font-family:"BebasNeue-Regular";
+            color : white;
+            position: absolute;
+            bottom: 0;
+            right: 30px;
+        }
+    }
+}
+//END BANNER
+
+//SERVICES 
+.agn-what-we-do{
+    .theme-title-one .main-title{
+        line-height: 1;
+        font-size: 1.2em;
+        color: black;
+        font-family: "Helvetica";
+        
+    }
+    hr{
+        margin-top: 0;
+        margin-bottom: 4rem;
+        border: 0;
+        border-top: 1px solid #a07661;
+        max-width: 250px;
+    }
+}
+.agn-what-we-do{
+    .upper-title{
+        font-size: 2.5em;
+        color: #2e365d;
+        font-family: "Athelas";
+        padding-top: 100px;
+    }
+    .single-block{
+        p{
+            color:  black;
+            text-align: center;
+            padding: 0;
+            font-family: "Helvetica";
+        }
+        .title{
+            color: black;
+            text-align: center;
+            font-family: "Helvetica";
+           
+        }
+    }
+}
+
+//END SERVICES
+
+//THEME COUNTER 
+.agn-counter-section{
+    background: #232329;
+    padding: unset;
+    margin: 0;
+    .main-wrapper{
+        padding-bottom: 35px;
+    }
+    .single-counter-box{
+        .number .timer{
+            color: #7378aa;
+            font-family: "BebasNeue-Regular";
+        }
+        p{
+            color: white;
+            font-family: "Hyriadpro";
+        }
+    }
+
+}
+
+//END THEME COUNTER
+
+//OUR GALLERY
+.agn-our-gallery{
+    padding: unset;
+}
+//END GALLERY
+
+//CONTACT BANNER 
+.arch-contact{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 200px;
+    .form-wrapper{
+        position: relative;
+        bottom: unset;
+        padding-top: 3em;
+        background-color: #2f3036;
+        //.inner-wrapper{
+        margin: 0;
+        background-color: #2f3036;
+        border: none;
+        padding: 70px 40px 100px 75px;
+        .upper-title{
+            font-size: 3em;
+            text-align: center;
+            color: #fff;
+            font-family: "Athleas";
+            padding-bottom: 25px;
+        }
+        p{
+            font-size: 1.5em;
+            text-align: center;
+            padding: 15px 0 100px;
+            color: #959597;
+            font-family: "Quattrocento";
+            
+        }
+        .contact-text p{
+            color: white;
+            padding-bottom: 79px;
+            font-family: "Hyriadpro";
+        }
+        form input{
+            font-family: "Quattrocento";
+        }
+        .theme-button-two{
+            font-family: "Hyriadpro";
+            background-color: #89553b;
+            display: inline-block;
+            border:1px solid #623621;
+            width: auto;
+            outline: none;
+        }
+        .theme-button-two:before{
+            border: none;
+            font-family: "Hyriadpro";
+        }
+        //}
+        form{
+            .selectize-input{
+                padding: 0;
+                padding-bottom: 20px;
+                width: 100%;
+                border: none;
+                margin-bottom: 30px;
+                color: #8e8e8e;
+                outline: none;
+                box-shadow: none;
+                transition: all 0.3s ease-in-out;
+                text-align: left;
+                font-size: 1em;
+            }
+            .selectize-input::placeholder,
+            select::placeholder{
+                font-size: 1em;
+            }
+            .selectize-dropdown-content{
+                color:#fff;
+                text-align: left;
+            }
+            .selectize-dropdown,
+            .selectize-input, .selectize-control.single .selectize-input.input-active{
+                background-color: #2f3036;
+            }
+            input, select, textarea,
+            .selectize-input.full,
+            .selectize-input{
+                border-bottom: 1px solid white;
+                background: none;
+                
+            }
+        }  
+        form input {
+            // width: auto;
+            font-size: 17px;
+            color: #8e8e8e;
+        } 
+    }
+
+}   
+// END CONTACT BANNER
+
+//ABOUT US
+.agn-aboutus{
+    background-image: url(../images/about_us/bg.jpg);
+    padding: 90px 0;
+    background-position: center;
+    background-size: cover;
+    // margin: 150px 0;
+    margin-bottom: 56px;
+    // padding-top: 219px;
+    .img-us{
+        // background-image: url(../images/about_us/papers.jpg); 
+        display: inline;
+        max-width: 1700px; 
+        max-height: 1000px;
+        display: block;
+        margin: auto;
+    }
+    .square{
+        border: 1px solid #d2d3d7;
+        background-color: #ffffff;
+        padding: -3px 47px;
+        margin: 2vh auto;
+        display: block;
+        h2{
+            text-align: center;
+            padding-top: 35px;
+            color: #000;
+            font-size: 2.5em;
+            font-family: "Athleas";
+
+        }
+        p{
+            text-align: center;
+            padding-top: 28px;
+            padding-bottom: 29px;
+            font-family: "Quattrocento";
+            color: #000;
+        }
+        
+        .row .img-r{
+            display: inline-block;
+            padding: 12px 32px;
+            margin: auto;
+        }
+    }
+}
+//END ABOUT US
+//BLOG
+.agn-home-blog {
+    padding-top: 0px;
+    .theme-title-one .main-title {
+        font-size: 48px;
+        font-family: "Athleas";
+        line-height: 60px;
+        padding-bottom: 43px;
+        color: #233D63;
+    }
+    p{
+        font-family: "Hyriadpro";
+
+        color: #000;
+    }
+    .single-blog-post{
+        width: auto 100vh;
+        font-family: "Hydriapro";
+        .flip-box-front{
+            border: 1px solid #c3bebe;
+            padding: 60px 10px 150px 27px;
+            border-radius: 3px;
+            background-size: cover;
+            background-position: center;
+        }
+        .flip-box-back{
+            background:  #2e365d;
+            .author-info{
+                color: #fff;
+                h6{
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .slider{
+        // height: 500px;
+        .item{
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+        }
+    }
+}
+.owl-theme .owl-nav{
+    background-color: #d6d6d6;
+    .owl-prev{
+        background-color: #89553b;
+        border: 3px solid #89553b;
+        display: block;
+        float: left;
+        position: relative;
+        border-radius: 106px;
+        width: 40px;
+        height: 40px;
+        i{
+            text-align: center;
+            vertical-align: middle;
+            padding: 2px 8px !important;
+            font-size: 20px;
+            color: #fff;
+        }
+    }
+    .owl-next{
+        background-color: #89553b;
+        border: 3px solid #89553b;
+        display: block;
+        float: right;
+        position: relative;
+        border-radius: 106px;
+        width: 40px;
+        height: 40px;
+        i{
+            text-align: center;
+            vertical-align: middle;
+            padding: 2px 6px !important;
+            font-size: 20px;
+            color: #fff;
+        
+        }
+    
+    }
+    .owl-next:hover{
+        background-color: #ffffff;
+        border: 3px solid #89553b;
+        i{
+            color: #89553b;
+            padding: 2px 6px !important;
+            font-size: 20px;
+        }
+    }
+    .owl-prev:hover{
+        background-color: #ffffff;
+        border: 3px solid #89553b;
+        i{
+            color: #89553b;
+            padding: 2px 8px !important;
+            font-size: 20px;
+        }
+    }
+}
+
+.agn-home-blog {
+    .container-fluid {
+        background-color:#fff;
+        padding: 0;
+    }
+        padding: 0px 0 50px;
+        background-color: #d6d6d6;
+}
+//END BLOG
+ //FOOTER
+ .theme-footer-one{
+     background-color: #2e365d;
+        .top-footer{
+            text-align: left;
+        h5{
+            color: white;
+            font-family: "Hyriadpro";
+            padding-bottom: 5px;
+        }
+        .footer-information p{
+            font-family: "Hyriadpro";
+            color: white;
+        }
+        .footer-list ul li a{
+            color: white;
+            font-family: "Hyriadpro";
+        }
+        .footer-information ul li {
+            display: inline-block;
+            color: #fff;
+            padding: 10px 0;
+        }
+        .footer-information a:hover {
+            display: inline-block;
+            background-color: #fff;
+        }
+        .footer-list ul li a:hover{
+            color: #fff;
+        }
+        .fa {
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            color: #fff;
+        }
+    }
+    .bottom-footer{
+        background-size: cover;
+        background-color: black;
+        .img-s{
+            display: inline-block;
+            float: right;
+            position: relative; 
+            padding: 5px;
+        }
+        p{
+            position: absolute;
+            text-align: left;
+            color: white;
+        }
+    }
+ }
+ //Boton de regreso a top
+.scroll-top{
+    background: #2e365d;
+    
+}
+ //END FOOTER
+
+
+// ===========================================
+//            POSTS DE BLOG
+// ===========================================
+
+//BLOG BANNER
+.blog-details{
+    .blog-hero-banner{
+        .date{
+            font-family: "Hyriadpro";
+        }
+        .blog-title{
+            font-family: "Athleas";
+        }
+    }
+    .post-data .bold-text{
+        font-family:"Hyriadpro"
+    }
+}
+//END BLOG BANNER
+//DETALLES DEL BLOG
+.our-blog{
+    .masnory-blog-wrapper{
+        .isotop-item{
+            .post-data{
+                text-align: left;
+                p{
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
+            }
+            .single-blog-post:hover{
+                h5 a{
+                    color: #233D63;
+                }
+            }
+        }
+    }
+}
+.blog-details-fg{
+    .blog-fg-data{
+        .blog-img-gallery{
+            margin: 0px;
+            padding: 0;
+        }
+    }
+    .h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6 {
+        color: #233D63;
+        font-weight: normal;
+        font-size: 28px;
+        padding: 30px 0 25px;
+    }
+    img {
+        max-width: 100%;
+        display: inline-block;
+        margin: 45px;
+    }
+    .comment-form-area{
+        background-color: #fff;
+    }
+    p{
+        font-family: "Hyriadpro";
+    }
+    .post-data p{
+        font-family: "Hyriadpro";
+    }
+    .post-data .quote-one {
+        font-size: 32px;
+        line-height: 45px;
+        margin: 42px 0 60px;
+        color: #3e3e3e;
+        position: relative;
+        padding-left: 90px;
+        font-family: "Athleas";
+    }
+    
+    .blog-fg-data {
+        .post-data .sub-heading{
+            font-family: "Athleas";
+            font-size: 28px;
+        }
+        .custom-container-bg{
+            padding: 50px 75px 0;
+            background: #fff;
+            // border: 1px solid #c3bebe;
+        }
+    
+    }    
+    .post-data .quote-two {
+        display: inline-block;
+        font-size: 23px;
+        line-height: 32px;
+        font-style: italic;
+        font-family: "Hyriadpro";
+        margin: 0 0 45px;
+        color: #3e3e3e;
+        position: relative;
+        padding-left: 90px;
+        padding-top: 50px;
+    }
+}
+.blog-details-fg .comment-form-area {
+    background: #fff;
+    padding: 0 0 140px;
+    margin-top: 30px;
+}
+.blog-details .blog-custom-container{
+    text-align: left;
+    font-family: "Athleas";
+}
+//END DETALLES DEL BLOG
+//COMENTS
+
+.blog-details{
+    .post-tag-area{
+        .share-icon li{
+            font-family: "Athleas";
+            font-size: 1.3em;
+        }
+        .share-icon li a:hover{
+            color: #2e365d;
+        }
+        .tags li:first-child{
+            font-family: "Athleas";
+            color: #000;
+            font-size: 1.5em;
+        }
+        .tags li a:hover, .tags li a{
+            font-family: "Hydriadpro";
+        }
+    }
+    .post-tag-area .share-icon li{
+        font-family: "Athleas";
+        li{
+            a:hover,a{
+                color: #000;
+            }
+            font-family: "Hydriadpro";
+            font-size: 1.5em;
+        }
+        
+    }
+    .user-comment-area .single-comment .reply {
+        font-family: 'Hydriadpro';
+        position: inherit;
+       
+    }
+    .user-comment-area .single-comment .reply:hover{
+        background: #2e365d;
+        border-color: #fff;
+    }
+}
+
+//END COMENTS 
+//COMENT FORM
+.blog-details{
+    
+    p{
+        font-family: "Hydriadpro";
+    }
+    .comment-form-area{
+        form textarea{
+            font-family: "Hydriadpro";
+        }
+        form input{
+            font-family: "Hydriadpro";
+        }
+        .theme-button-two{
+            background-color: #2e365d;
+            font-family: "Hydriadpro";
+        }
+    }
+    .blog-details-fg .blog-fg-data .custom-container-bg {
+    padding: 50px 75px 0;
+    background: #fff;
+    }
+    .inner-block-title{
+        font-family: "Athleas";
+    }
+    .user-comment-area{
+        .single-comment{
+            padding: 0px 0;
+        }
+    }
+}
+.user-comment-area .single-comment{ 
+        .user-comment-data .name {
+        font-family: "Athleas";
+        font-size: 20px;
+        color: #3e3e3e;
+        padding-bottom: 5px;
+    }
+}
+
+//END COMENT FORM 
+
+
+//END VIDEO
+//PUBLICACIONES
+.blog-filter-title{
+    .main-title{
+        font-family: "Athleas";   
+    }
+}
+.blog-filter-title {
+    text-align: center;
+    padding: 180px 0 100px;
+}
+.blog-filer{
+    .blog-filter-nav li{ 
+        font-family: "Athleas";
+        font-size: 1.3em;
+    }
+}
+.our-blog{
+    .post-data{
+        .date, .date:hover{
+            font-family: "Hydriadpro";
+        }
+
+    }
+}
+.our-blog .masnory-blog-wrapper .isotop-item {
+    .single-blog-post:hover h5 a {
+        color: #233D63;
+        font-family: "Athleas";
+    }
+    .single-blog-post h5 a{
+        font-family: "Athleas";;
+    }
+}
+.our-blog .masnory-blog-wrapper .isotop-item .post-data p {
+    font-family: "Hydriadpro";
+}
+.pt-150{
+    font-family: "Athleas";
+    padding-top: 0;
+}
+.theme-pagination-one ul li a:hover, .theme-pagination-one ul li.active a{
+    color: #2e365d;
+
+}
+.our-blog .img-holder img {
+    width: 100%;
+    transition: all 0.6s ease-in;
+    object-fit: cover;
+    width: 424px;
+    height: 241px;
+}
+
+
+//END PUBLICACIONES
+ // MEDIA
+ @media screen and (max-width:991px){
+    .theme-main-menu #mega-menu-holder ul.navbar-nav li.nav-item a.nav-link {
+        line-height: 5.5;
+        padding: inherit;
+        margin: -13px;
+        background-color: #2e365d;
+        font-size: 24px;
+    }
+    .navbar-collapse{
+        // position: relative;
+        position: absolute;
+        top: 100%;
+        left: -212px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 275px;
+        // left: none;
+        // right: 20px;
+        max-height: 68vh;
+        // overflow-y: hidden;
+        // z-index: 60;
+        // clear: both;
+        // box-shadow: 0px 30px 70px 0px rgba(137,139,142,0.15);
+    }
+    .collapse.show {
+        display: block;
+    }
+    .navbar>.container, .navbar>.container-fluid {
+        display: inline-table;
+    }
+    .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    .navbar-nav{
+        flex-direction: column;
+        display: -webkit-box;
+        width: initial;
+    }
+    #theme-banner-one {
+        height: 50vh;
+    }
+    .logo {
+           img{
+            max-width: 200px;
+        }
+    }
+    .arch-contact{
+        // padding-bottom: 54px;
+        padding-bottom: 0;
+
+    }
+    .agn-aboutus {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 150px;
+        .img-us{
+            display: inline;
+            max-width: 1700px; 
+            max-height: 1000px;
+            display: block;
+            //margin: 2vh auto;
+        }
+        .square {
+            .img-r{
+                padding-bottom: 30px;
+            }
+        }
+    }
+    .bottom-footer .container-flud .clearfix .copy {
+        text-align: center;
+        padding: 30px 0;
+        font-size: xx-small;
+    } 
+    .theme-footer-one{
+        padding-top: 35px;
+        position: relative;
+        .top-footer h5{
+            font-size: 1.3em;
+        }
+         .top-footer .footer-list ul li a{
+            font-size: .8em;
+        }
+        .top-footer .footer-information p {
+            font-family: "Hyriadpro";
+            color: white;
+            margin: auto;
+            display: grid;
+            padding: 0 6px;
+            float: none;
+            text-align: center;
+            position: unset;
+        }
+        .bottom-footer  p {
+            position: absolute;
+            text-align: left;
+            font-size: 17px;
+            color: white;
+            display: block;
+        }
+    }
+    .blog-details-fg img {
+        max-width: 100%;
+        display: block;
+        margin: 35px 41px;
+    }
+    // .blog-details-fg img {
+    //     max-width: 100%;
+    //     display: block;
+    //     margin: 43px;
+    // }
+    .blog-details-fg .comment-form-area {
+        padding-top: 0px;
+        margin-top: 0;
+    }
+    .agn-aboutus .square .img-r {
+        display: inline-block;
+        padding: auto;
+        margin: 0;
+        padding-bottom: 30px;
+    }
+    .blog-details .blog-hero-banner {
+        padding-top: 300px;
+        background-size: cover;
+        animation: none;
+    }
+}
+@media screen and (max-width:767px){
+    .theme-main-menu #mega-menu-holder ul.navbar-nav li.nav-item a.nav-link {
+        line-height: 5.5;
+        padding: inherit;
+        margin: -13px;
+        background-color: #2e365d;
+        font-size: 24px;
+    }
+    .navbar-collapse{
+        position: absolute;
+        top: 100%;
+        left: -212px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 275px;
+        max-height: 68vh;
+    }
+    .navbar-nav{
+        flex-direction: column;
+        display: -webkit-box;
+        width: initial;
+    }
+    .collapse.show {
+        display: block;
+    }
+    .navbar>.container, .navbar>.container-fluid {
+        display: inline-table;
+    }
+    .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    .bottom-footer .container-flud .clearfix .copy {
+        text-align: center;
+        padding: 30px 0;
+        font-size: xx-small;
+    }    
+    .logo {
+        img{
+            max-width: 213px;
+        }
+    }
+    // .arch-contact{
+    //     padding-bottom: 54px;
+    // }
+    .arch-contact .form-wrapper{
+        padding: 72px 39px 88px 57px;
+    }
+    .agn-aboutus {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 150px;
+    }
+    .bottom-footer .container-flud .clearfix .copy {
+        text-align: center;
+        padding: 30px 0;
+        font-size: xx-small;
+    } 
+    .blog-details-fg img {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .blog-details-fg img {
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .blog-details-fg .post-data p {
+        font-size: initial;
+    }
+    .user-comment-area .single-comment .user-comment-data .name {
+        padding-top: unset;
+        padding-bottom: 5px;
+    }
+    .user-comment-area .single-comment .user-comment-data {
+        padding: 30px 0 0;
+    }
+    .theme-footer-one{
+        padding-top: 35px;
+        position: relative;
+        .top-footer h5{
+            font-size: 1.3em;
+        }
+         .top-footer .footer-list ul li a{
+            font-size: .8em;
+        }
+        .top-footer .footer-information p {
+            font-family: "Hyriadpro";
+            color: white;
+            margin: auto;
+            display: table-cell;
+            padding: 0 6px;
+            text-align: center;
+        }
+        .bottom-footer  p {
+            position: absolute;
+            text-align: left;
+            font-size: 8px;
+            color: white;
+            display: block;
+        }
+    }
+    
+    .footer-one .top-footer .footer-list ul li a:hover {
+        color: white;
+        font-family: "Hyriadpro";
+        font-size: medium;
+    }
+    .agn-aboutus .square .img-r {
+        display: inline-block;
+        padding: auto;
+        margin: 0;
+        padding-bottom: 30px;
+    }
+    .blog-details .blog-hero-banner {
+        padding-top: 300px;
+        background-size: cover;
+        animation: none;
+    }
+    .blog-default .single-blog-post.blog-text-style .post-data, .our-blog .bg-solid-post.single-blog-post .post-data, .our-blog .full-grid-container .bg-solid-post.single-blog-post .post-data, .blog-filer, .blog-details-fg .blog-fg-data .custom-container-bg {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .blog-details-fg .post-data .quote-one {
+        font-size: 22px;
+        line-height: 30px;
+        margin: 42px 0 60px;
+        color: #3e3e3e;
+        position: relative;
+        padding-left: 47px;
+        font-family: "Athleas";
+    }
+}
+//END MEDIA
+
+
+// nuevo
+
+#about-img-banner{
+    margin-top:189px ;
+    height: 600px; 
+    background-image: url('../images/about_us/papers.jpg');
+    background-size: cover;
+
+    @media screen and (max-width:1024px) {
+    margin-top:0 ;
+        
+    }
+}
+
+
